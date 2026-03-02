@@ -4,7 +4,7 @@
   "schemaVersion": 1,
   "title": "Unix Converter",
   "description": "Convert between UNIX timestamps and date strings",
-  "icon": "clock-extension.png",
+  "icon": "extension_icon.png",
   "author": "aaronarich",
   "categories": [
     "Developer Tools"
@@ -29,21 +29,21 @@
       "name": "timestamp-to-date",
       "title": "Timestamp to Date",
       "description": "Convert a UNIX timestamp to UTC and local time",
-      "icon": "clock-command.png",
+      "icon": "extension_icon.png",
       "mode": "view"
     },
     {
       "name": "date-to-timestamp",
       "title": "Date to Timestamp",
       "description": "Convert a date string to UNIX timestamp",
-      "icon": "clock-command.png",
+      "icon": "extension_icon.png",
       "mode": "view"
     },
     {
       "name": "current-timestamp",
       "title": "Current Unix Timestamp",
       "description": "Show the current UNIX timestamp",
-      "icon": "clock-command.png",
+      "icon": "extension_icon.png",
       "mode": "view"
     }
   ]
