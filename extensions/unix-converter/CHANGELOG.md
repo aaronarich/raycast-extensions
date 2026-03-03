@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.0
+## [Initial Release] - {PR_MERGE_DATE}
 
 - Added a `Timestamp to Date` command to convert UNIX timestamps (seconds or milliseconds) into UTC, local time, and ISO output.
 - Added a `Date to Timestamp` command to convert date strings into UNIX seconds and milliseconds.
