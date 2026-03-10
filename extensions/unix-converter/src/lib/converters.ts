@@ -21,7 +21,7 @@ export function parseDateInput(input: string): Date | null {
 }
 
 export function formatUtc(date: Date): string {
-  return new Intl.DateTimeFormat(undefined, {
+  return new Intl.DateTimeFormat("en-US", {
     timeZone: "UTC",
     year: "numeric",
     month: "2-digit",
@@ -35,7 +35,7 @@ export function formatUtc(date: Date): string {
 }
 
 export function formatLocal(date: Date): string {
-  return new Intl.DateTimeFormat(undefined, {
+  return new Intl.DateTimeFormat("en-US", {
     year: "numeric",
     month: "2-digit",
     day: "2-digit",
